@@ -29,7 +29,7 @@ def refine_post(input_text):
     try:
         output = run_graph(input_text, thread=thread)
     except Exception as e:
-        output = f"An error occurred: {e}, correct the input and try again."
+        output = f"An error occurred, correct the input and try again (you can just try again)."
     return output
 
 # Button to refine the post
