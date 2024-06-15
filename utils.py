@@ -59,7 +59,9 @@ Provide detailed recommendations, including requests for tone, length, depth, st
 
 RESEARCH_PLAN_PROMPT = """You are a researcher charged with providing information that can \
 be used when composing the a better post. Generate a list of search queries that will gather \
-any relevant information. Only generate 3 queries max."""
+any relevant information. Only generate 2 queries max. it should be relevant to the post and the user's instruction.\
+If there's no need for a query, respond with "None".    
+"""
 
 RESEARCH_CRITIQUE_PROMPT = """You are a researcher charged with providing information that can \
 be used when making any requested revisions (as outlined below). \
