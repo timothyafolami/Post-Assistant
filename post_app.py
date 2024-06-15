@@ -25,7 +25,11 @@ combined_input = f"Instruction: {instruction}\n\nPost: {post}"
 def refine_post(input_text):
     thread_id = st.session_state.session_id
     thread = {"configurable": {"thread_id": thread_id}}
-    output = run_graph(input_text, thread=thread)
+    # adding try and except block to handle the error
+    try:
+        output = run_graph(input_text, thread=thread)
+    except Exception as e:
+        output = f"An error occurred: {e}, correct the input and try again."
     return output
 
 # Button to refine the post
