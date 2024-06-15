@@ -10,4 +10,3 @@ streamlit-chat
 notebook
 langgraph
 tavily-python
-pygraphviz
