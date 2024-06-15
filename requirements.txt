@@ -1,0 +1,13 @@
+streamlit
+groq
+langchain_community
+langchain
+langchain_groq
+langchain_core
+llama-parse 
+python-dotenv
+streamlit-chat
+notebook
+langgraph
+tavily-python
+pygraphviz
