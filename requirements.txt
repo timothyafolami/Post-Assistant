@@ -5,6 +5,7 @@ langchain
 langchain_groq
 langchain_core
 llama-parse 
+langgraph-checkpoint-sqlite
 python-dotenv
 streamlit-chat
 notebook
